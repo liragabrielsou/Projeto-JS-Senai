@@ -1,0 +1,122 @@
+body {
+    background: linear-gradient(45deg, #003785, #2196f3);
+    background-image: url(https://th.bing.com/th/id/R.2a8323dc91f081fef93e097c20641b39?rik=p7fyEiWV8KI8qw&pid=ImgRaw&r=0);
+    background-attachment: fixed;
+    background-position: 0%;
+    background-size: cover;
+}
+
+
+.div-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container {
+    background-color: #003785;
+    padding: 10px;
+    
+}
+#form-container {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 420;
+    font-style: normal;
+}
+
+.background-lapse{
+    background-attachment: fixed;
+    position: fixed;
+
+}
+
+main {
+    background-color: white;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    border-radius: 15px;
+    flex-grow: 1;
+}
+
+main>h1 {
+    color:white;
+    background-color:#003785;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 15px;
+
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* CSS */
+.button-66 {
+    background-color: #0a6bff;
+    border-radius: 4px;
+    border: 0;
+    box-shadow: rgba(1,60,136,.5) 0 -1px 3px 0 inset,rgba(0,44,97,.1) 0 3px 6px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inherit;
+    font-family: "Space Grotesk",-apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0;
+    min-height: 56px;
+    min-width: 120px;
+    padding: 16px 20px;
+    position: relative;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    transition: all .2s cubic-bezier(.22, .61, .36, 1);
+  }
+  
+  .button-66:hover {
+    background-color: #065dd8;
+    transform: translateY(-2px);
+  }
+  
+  @media (min-width: 768px) {
+    .button-66 {
+      padding: 16px 44px;
+      min-width: 150px;
+    }
+  
+  }
+
+footer{
+    display: flex;
+}
+
+.footer-container{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: #003785;
+    padding: 20px;
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 420;
+    font-style: normal;
+}
+
